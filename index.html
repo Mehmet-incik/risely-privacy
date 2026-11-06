@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Risely - Gizlilik Politikası & Kullanım Koşulları</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0D0D12;
+      --surface: #171720;
+      --surface-alt: #1F1F2B;
+      --text: #F2F2F7;
+      --text-muted: #8E8E9F;
+      --primary: #8B5CF6;
+      --border: #2A2A3C;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+    .header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .logo {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #8B5CF6, #6366F1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+    }
+    h1 { font-size: 26px; font-weight: 700; color: #fff; }
+    .badge {
+      display: inline-block;
+      background: rgba(139, 92, 246, 0.15);
+      color: var(--primary);
+      padding: 4px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 6px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      border-left: 3px solid var(--primary);
+      padding-left: 10px;
+    }
+    p, li {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    ul { padding-left: 20px; margin-bottom: 16px; }
+    li { margin-bottom: 6px; }
+    strong { color: var(--text); }
+    .contact-box {
+      margin-top: 36px;
+      padding: 20px;
+      background: var(--surface-alt);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    .contact-box a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">🚀</div>
+      <div>
+        <h1>Risely - Gizlilik Politikası</h1>
+        <div class="badge">Son Güncelleme: Kasım 2026 • Sürüm 1.0.0</div>
+      </div>
+    </div>
+
+    <h2>1. Giriş ve Genel Bakış</h2>
+    <p>Risely ("biz", "uygulamamız") olarak kullanıcılarımızın gizliliğine ve kişisel verilerinin korunmasına büyük önem veriyoruz. Bu Gizlilik Politikası, Risely mobil uygulamasını kullandığınızda hangi verilerin toplandığını, nasıl işlendiğini ve korunduğunu açıklar.</p>
+    <p>Risely, <strong>"Önce Yerel" (Offline-First)</strong> mimarisiyle geliştirilmiştir. Görevleriniz ve alışkanlıklarınız varsayılan olarak yalnızca kendi cihazınızda saklanır.</p>
+
+    <h2>2. Toplanan Bilgiler ve Kullanım Amaçları</h2>
+    <ul>
+      <li><strong>Alışkanlık ve Görev Bilgileri:</strong> Eklediğiniz görevler, hatırlatıcılar, alt kategoriler ve tamamlama kayıtları. Bu veriler cihazınızda yerel saklanır, hesabınız varsa Firestore üzerinde güvenle senkronize edilir.</li>
+      <li><strong>Hesap Bilgileri:</strong> Kayıt olmanız durumunda e-posta adresiniz ve belirlediğiniz ad/avatar. Misafir girişinde ise yalnızca rastgele bir anonim kimlik (UID) kullanılır.</li>
+      <li><strong>Bildirim Bilgileri:</strong> Görev hatırlatıcıları ve sabah motivasyon bildirim saatleri cihazınızın yerel depolama alanında tutulur.</li>
+    </ul>
+
+    <h2>3. Ödeme ve Abonelik Bilgileri</h2>
+    <p>Risely Pro ve Ultra abonelikleri tamamen <strong>Google Play Faturalandırma Sistemi (In-App Billing)</strong> üzerinden gerçekleştirilir. Kredi kartı veya finansal bilgileriniz Risely sunucularına asla iletilmez ve saklanmaz. Ödeme ve faturalandırma tamamen Google güvencesi altındadır.</p>
+
+    <h2>4. Bilgi Paylaşımı ve Üçüncü Taraflar</h2>
+    <p>Kişisel verileriniz hiçbir şekilde üçüncü taraflara <strong>satılmaz, kiralanmaz, pazarlanmaz veya reklam amaçlı kullanılmaz</strong>. Yalnızca uygulamanın temel işlevlerini sağlamak için aşağıdaki güvenilir servis sağlayıcılar kullanılır:</p>
+    <ul>
+      <li><strong>Google Firebase (Authentication & Cloud Firestore):</strong> Güvenli kimlik doğrulama ve isteğe bağlı bulut eşitleme.</li>
+      <li><strong>Google Play Hizmetleri:</strong> Abonelik ve faturalandırma yönetimi.</li>
+    </ul>
+
+    <h2>5. Veri Güvenliği ve Silme Hakkı</h2>
+    <p>Verileriniz endüstri standardı şifreleme yöntemleriyle (TLS/SSL) korunur. Hesabınızı ve hesabınıza bağlı bulut verilerinizi dilediğiniz an Profil ekranından silebilir veya uygulamadan çıkış yaparak yerel verilerinizi temizleyebilirsiniz.</p>
+
+    <div class="contact-box">
+      <strong>Sorularınız veya Veri Silme Talepleriniz İçin İletişim:</strong><br>
+      E-posta: <a href="mailto:mehmetincik213@gmail.com">mehmetincik213@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>
